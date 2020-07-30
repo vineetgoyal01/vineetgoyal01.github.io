@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/vineetgoyal01/vineetgoyal01.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!-- CSS Stylesheets with Relative Paths -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
 
-### Markdown
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
 
-```markdown
-Syntax highlighted code block
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-# Header 1
-## Header 2
-### Header 3
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Vineet Goyal</h2>
+        <img id="bio-image" width="200" src="C:\Users\vinee\Pictures\Saved Pictures\3.jpg" alt="Vineet Goyal">
+      </section>
+      <p>dsjdsnksdjbn</a></p>
+    </section>
 
-- Bulleted
-- List
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">vineetgoyal01@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">vineetgoyal01</a></li>
+        <li><strong>Linkedin:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
-1. Numbered
-2. List
+</body>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vineetgoyal01/vineetgoyal01.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
